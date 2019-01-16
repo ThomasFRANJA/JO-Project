@@ -7,7 +7,7 @@ class JessieOwens extends Component {
          <Grid>
              <Row>
                  <Col>
-                     <h1>JessieOwens</h1>
+                     <h1 className='jessie__title'>JessieOwens</h1>
                  </Col>
              </Row>
          </Grid>
