@@ -1,0 +1,55 @@
+.container {
+
+  &-img{
+    margin-top: 90px;
+    &__bg{
+      width: 65%;
+    }
+  }
+
+  &-descriptif {
+    color: #FFFFFF;
+    text-align: left;
+    padding-right: 5%;
+
+    &__date {
+      margin: 0 0 0 186px;
+      color: transparent;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: #B02F2F;
+      font-size: 12rem;
+
+    }
+    &__title {
+      font-size: 40px;
+    }
+
+    &__text {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    &__link {
+      min-height: 150px;
+    }
+
+    &__btn {
+      background-color: transparent;
+      border: 1px #B02F2F solid;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      color: #B02F2F;
+      cursor: pointer;
+      font-size: 15px;
+      padding: 10px 50px;
+      margin-top: 45px;
+      &:hover {
+        background-color: #B02F2F;
+        opacity: .7;
+        color: #FFFFFF;
+        transition: 350ms ease;
+      }
+    }
+  }
+}
