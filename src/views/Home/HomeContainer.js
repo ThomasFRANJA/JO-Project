@@ -3,6 +3,7 @@ import	React, { Component, Fragment }		from	'react';
 import	Home								from	'../Home/Home';
 import	Loading								from	'../../components/Loading/Loading';
 
+import												'./HomeContainer.scss';
 
 export default class HomeContainer extends Component {
 
@@ -29,10 +30,9 @@ export default class HomeContainer extends Component {
 		}
 
 		return (
-			<Fragment>
+			<div className='home__main-container'>
 				<Home />
-			</Fragment>
-
+			</div>
 		);
 	}
 }

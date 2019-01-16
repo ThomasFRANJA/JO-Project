@@ -1,0 +1,25 @@
+.home__main-container {
+	width: 100vw;
+	height: 100vh;
+
+	background: url('../../assets/Home/bg-home-min2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	animation-name: fadeIn;
+	animation-duration: 2s;
+	animation-delay: 0s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+
+}

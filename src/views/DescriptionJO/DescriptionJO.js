@@ -35,16 +35,18 @@ class DescriptionJO extends Component {
         return(
             <Grid>
                 <Row middle="lg" className="container">
-                    <Col lg= {6} className="container-img">
+                    <Col lg={6} className="container-img">
                         <img  src={images[data.list[0][this.state.key].img]} alt="" className="container-img__bg"/>
                     </Col>
 
                     <Col lg={6} className="container-descriptif">
                         <h1 className="container-descriptif__date">{data.list[0][this.state.key].date}</h1>
-                        <h1 className="container-descriptif__title">
-                            {data.list[0][this.state.key].title}
-                        </h1>
-                        <p className="container-descriptif__text">{data.list[0][this.state.key].text}</p>
+                        <div className='container__descriptionJO-title'>
+                            <h1 className="container-descriptif__title">
+                                {data.list[0][this.state.key].title}
+                            </h1>
+                            <p className="container-descriptif__text">{data.list[0][this.state.key].text}</p>
+                        </div>
 
                         <div className="container-descriptif__link">
                             <Link to={'/JessieOwens'}>
