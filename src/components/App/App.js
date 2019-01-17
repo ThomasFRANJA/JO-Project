@@ -1,6 +1,5 @@
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import React, {Component, Fragment} from 'react';
-import Home from '../../views/Home/Home';
 import './App.css';
 import	JessieOwens					from "../../views/JessieOwens/JessieOwens";
 import	HomeContainer				from '../../views/Home/HomeContainer';

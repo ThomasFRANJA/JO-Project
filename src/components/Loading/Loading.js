@@ -4,8 +4,6 @@ import	Circle								from	'../Circle/Circle';
 
 import											'./Loading.scss';
 
-const	Logo								= require('../../assets/Introduction/OGElogo.png');
-
 
 class Loading extends Component {
 

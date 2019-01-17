@@ -1,9 +1,7 @@
-import	React, { Component, Fragment }		from	'react';
-
-import	Home								from	'../Home/Home';
-import	Loading								from	'../../components/Loading/Loading';
-
-import												'./HomeContainer.scss';
+import	React, { Component } from 'react';
+import	Home  from	'../Home/Home';
+import	Loading	from '../../components/Loading/Loading';
+import	'./HomeContainer.scss';
 
 export default class HomeContainer extends Component {
 
@@ -15,19 +13,13 @@ export default class HomeContainer extends Component {
 		}
 	}
 
-	componentDidMount() {
-		setTimeout(() => {
-			this.setState({
-				loading: false
-			});
-		}, 5500);
-	}
 
-	render() {
 
-		if (this.state.loading) {
-			return <Loading />
-		}
+    render() {
+
+
+
+
 
 		return (
 			<div className='home__main-container'>

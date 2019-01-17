@@ -13,12 +13,12 @@ const importAll = require =>
 
 // Folder img
 const images = importAll(
-    require.context('../../assets/img/Home', false, /\.(png|jpe?g|svg)$/)
+    require.context('../../assets/Home', false, /\.(png|jpe?g|svg)$/)
 );
 
 class DescriptionJO extends Component {
    state = {
-        key: "1936",
+        key: "1936"
     };
 
 
@@ -27,11 +27,11 @@ class DescriptionJO extends Component {
        this.setState({
            key: event.target.value,
        });
-       console.log(event.target.value)
+       console.log(event.target.value);
    };
 
     render(){
-    console.log(images)
+    console.log(images);
         return(
             <Grid>
                 <Row middle="lg" className="container">
@@ -55,7 +55,8 @@ class DescriptionJO extends Component {
                         </div>
 
                         <TimeLine
-                            onClick={this.onClickDate}
+                            onClickDate={event => this.onClickDate(event)}
+                            date={this.state.key}
                         />
                     </Col>
                 </Row>
