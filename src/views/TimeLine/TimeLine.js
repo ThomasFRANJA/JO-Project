@@ -8,7 +8,7 @@ const TimeLine = ({ onClickDate, date }) => (
                 <div className="container-btn">
                     <button onClick={event => onClickDate(event)} className={`container-btn__btn ${date === '1936' ? 'active' : ''}`} value="1936">1936</button>
 
-                    <button onClick={event => onClickDate(event)} className={`container-btn__btn ${date === '1948' ? 'active' : ''}`} value="1948">1948</button>
+                    <button onClick={event => onClickDate(event)} className={`container-btn__btn ${date === '1968' ? 'active' : ''}`} value="1968">1968</button>
 
                     <button onClick={event => onClickDate(event)} className={`container-btn__btn ${date === '1972' ? 'active' : ''}`} value="1972">1972</button>
 

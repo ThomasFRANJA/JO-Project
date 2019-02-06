@@ -27,7 +27,10 @@ class DescriptionJO extends Component {
        this.setState({
            key: event.target.value,
        });
-       console.log(event.target.value);
+   };
+
+   onClickDiscover = () => {
+     localStorage.setItem('key', this.state.key);
    };
 
     render(){
@@ -35,11 +38,11 @@ class DescriptionJO extends Component {
         return(
             <Grid>
                 <Row middle="lg" className="container">
-                    <Col lg={6} className="container-img">
+                    <Col xs={12} lg={6} className="container-img">
                         <img  src={images[data.list[0][this.state.key].img]} alt="" className="container-img__bg"/>
                     </Col>
 
-                    <Col lg={6} className="container-descriptif">
+                    <Col xs={12} lg={6} className="container-descriptif">
                         <h1 className="container-descriptif__date">{data.list[0][this.state.key].date}</h1>
                         <div className='container__descriptionJO-title'>
                             <h1 className="container-descriptif__title">
@@ -49,8 +52,8 @@ class DescriptionJO extends Component {
                         </div>
 
                         <div className="container-descriptif__link">
-                            <Link to={'/JessieOwens'}>
-                                <button className="container-descriptif__btn">Découvrir</button>
+                            <Link to={'/Discover'}>
+                                <button onClick={this.onClickDiscover} className="container-descriptif__btn">Découvrir</button>
                             </Link>
                         </div>
 
