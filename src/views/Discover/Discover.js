@@ -25,7 +25,7 @@ const Discover = () => {
                         </Col>
                     </Row>
                 </Grid>
-            </section>gst
+            </section>
 
             {/* Section 2 */}
             <section className="section">
