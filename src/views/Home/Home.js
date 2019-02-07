@@ -1,10 +1,11 @@
 import React from 'react';
 import DescriptionJO from "../../views/DescriptionJO/DescriptionJO";
-import '../../styles/Home.scss';
+
+import  './Home.scss';
 
 const Home = () =>  {
         return (
-            <div className="container" >
+            <div className='home' >
                 <DescriptionJO/>
             </div>
         );

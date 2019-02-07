@@ -13,12 +13,12 @@ const importAll = require =>
 
 // Folder img
 const images = importAll(
-    require.context('../../assets/img/Home', false, /\.(png|jpe?g|svg)$/)
+    require.context('../../assets/Home', false, /\.(png|jpe?g|svg)$/)
 );
 
 class DescriptionJO extends Component {
    state = {
-        key: "1936",
+        key: "1936"
     };
 
 
@@ -27,33 +27,39 @@ class DescriptionJO extends Component {
        this.setState({
            key: event.target.value,
        });
-       console.log(event.target.value)
+   };
+
+   onClickDiscover = () => {
+     localStorage.setItem('key', this.state.key);
    };
 
     render(){
-    console.log(images)
+    console.log(images);
         return(
             <Grid>
                 <Row middle="lg" className="container">
-                    <Col lg= {6} className="container-img">
+                    <Col xs={12} lg={6} className="container-img">
                         <img  src={images[data.list[0][this.state.key].img]} alt="" className="container-img__bg"/>
                     </Col>
 
-                    <Col lg={6} className="container-descriptif">
+                    <Col xs={12} lg={6} className="container-descriptif">
                         <h1 className="container-descriptif__date">{data.list[0][this.state.key].date}</h1>
-                        <h1 className="container-descriptif__title">
-                            {data.list[0][this.state.key].title}
-                        </h1>
-                        <p className="container-descriptif__text">{data.list[0][this.state.key].text}</p>
+                        <div className='container__descriptionJO-title'>
+                            <h1 className="container-descriptif__title">
+                                {data.list[0][this.state.key].title}
+                            </h1>
+                            <p className="container-descriptif__text">{data.list[0][this.state.key].text}</p>
+                        </div>
 
                         <div className="container-descriptif__link">
-                            <Link to={'/JessieOwens'}>
-                                <button className="container-descriptif__btn">Découvrir</button>
+                            <Link to={'/Discover'}>
+                                <button onClick={this.onClickDiscover} className="container-descriptif__btn">Découvrir</button>
                             </Link>
                         </div>
 
                         <TimeLine
-                            onClick={this.onClickDate}
+                            onClickDate={event => this.onClickDate(event)}
+                            date={this.state.key}
                         />
                     </Col>
                 </Row>
