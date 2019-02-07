@@ -4,9 +4,15 @@
   height: 100vh;
 
   &-img {
-    margin-top: 90px;
     &__bg{
-      width: 65%;
+      position: fixed;
+      bottom: 54px;
+      left: 67px;
+      &--fixed {
+        position: fixed;
+        bottom: 54px;
+        left: 57px;
+      }
     }
   }
 
@@ -16,6 +22,7 @@
     padding-right: 5%;
 
     &__date {
+      height: 30rem;
       margin: 0 0 0 186px;
       color: transparent;
       -webkit-text-stroke-width: 3px;
@@ -33,7 +40,7 @@
     }
 
     &__link {
-      min-height: 15rem;
+      min-height: 12rem;
     }
 
     &__btn {
@@ -59,5 +66,5 @@
 
 
 .container__descriptionJO-title {
-  height: 20rem;
+  height: 27rem;
 }
