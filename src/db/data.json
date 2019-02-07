@@ -42,10 +42,10 @@
       },
 
       "2024": {
-        "title" : "2024 - Paris",
+        "title" : "Et Paris 2024 ?",
         "date": "2024",
-        "text" : "Les JO de demain...",
-        "img": "img.png",
+        "text" : "C'est fait ! Paris accueillera les Jeux Olympiques en 2024, 100 ans après la dernière édition organisée dans la capitale. En compétition avec Los Angeles, Paris a su se démarquer grâce à un dossier prometteur, s'appuyant sur un grand nombre d'infrastructures déjà existantes, mais aussi grâce aux retraits successifs des autres candidats (Boston, Hambourg, Rome, Budapest). Pourtant, les inquiétudes autour de l'organisation de cet événement sont nombreuses, notamment concernant le respect du budget alloué à l'organisation",
+        "img": "img-2024.png",
         "bgTime" : "bg-date.png"
       }
     }
