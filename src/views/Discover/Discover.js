@@ -17,7 +17,8 @@ const handleScroll = () => {
 const Discover = () => {
 
     const key = localStorage.getItem('key');
-
+    console.log('key', key);
+    
     return (
         <div id="discoverContainer" onWheel={handleScroll}>
             {/* Section 1 */}
@@ -115,12 +116,34 @@ const Discover = () => {
                         <div className='block-discover-link-container'>
                             <div className="block-discoverLinkLeft">
                                 <img src={bgLeft} alt=""/>
-                                <button>1936</button>
+                                <button
+                                    className='discoverPrevious'
+                                    >
+                                    {
+                                        key === '1936' ? '1936' : '' ||
+                                        key === '1968' ? '1936' : '' ||
+                                        key === '1972' ? '1968' : '' ||
+                                        key === '2008' ? '1972' : '' ||
+                                        key === '2016' ? '2008' : '' ||
+                                        key === '2024' ? '2016' : ''
+                                    }
+                                    </button>
                             </div>
 
                             <div className="block-discoverLinkRight">
                                 <img src={bgRight} alt=""/>
-                                <button>1972</button>
+                                <button
+                                    className='discoverNext'
+                                    >
+                                    {
+                                        key === '1936' ? '1968' : '' ||
+                                        key === '1968' ? '1972' : '' ||
+                                        key === '1972' ? '2008' : '' ||
+                                        key === '2008' ? '2016' : '' ||
+                                        key === '2016' ? '2024' : '' ||
+                                        key === '2024' ? '2024' : ''
+                                    }
+                                </button>
                             </div>
                         </div>
                     </Row>
