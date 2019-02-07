@@ -6,7 +6,7 @@ import ogSingle from './../../assets/OG-single-02.svg';
 import bgVideo from './../../assets/videos/1936-Men.mp4';
 import bgLeft from './../../assets/Circle-bottom-left.svg';
 import bgRight from './../../assets/Circle-bottom-right.svg';
-
+import  Header              from    '../../components/Header/Header';
 
 const handleScroll = () => {
     document.getElementById('discoverContainer');
@@ -23,6 +23,7 @@ const Discover = () => {
         <div id="discoverContainer" onWheel={handleScroll}>
             {/* Section 1 */}
             <section className="section">
+                <Header />
                 <Grid>
                     <Row middle="lg">
                         <Col lg={3} lgOffset={1} className="block-discover">

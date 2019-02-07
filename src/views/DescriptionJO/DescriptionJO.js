@@ -17,51 +17,46 @@ const images = importAll(
 );
 
 class DescriptionJO extends Component {
-    state = {
+   state = {
         key: "1936"
     };
 
 
-    onClickDate = (event) => {
-        event.preventDefault();
-        this.setState({
-            key: event.target.value,
-        });
-    };
+   onClickDate = (event) => {
+       event.preventDefault();
+       this.setState({
+           key: event.target.value,
+       });
+   };
 
-    onClickDiscover = () => {
-        localStorage.setItem('key', this.state.key);
-    };
+   onClickDiscover = () => {
+     localStorage.setItem('key', this.state.key);
+   };
 
-    render() {
-        console.log(images);
-        return (
+    render(){
+
+    const { key } = this.state;
+
+    console.log(images);
+        return(
             <Grid>
                 <Row middle="lg" className="container">
-                    <Col xs={12} lg={6} className="container-img">
-                        {(this.state.key === "2008") &&
-                        <img src={images[data.list[0][this.state.key].img]} alt="img-date"
-                             className="container-img__bg--fixed"/>
-                        }
-                        {(this.state.key === "1936" || this.state.key === "1968" || this.state.key === "1972" || this.state.key === "2016" || this.state.key === "2024") &&
-                            <img src={images[data.list[0][this.state.key].img]} alt="img-date"
-                            className="container-img__bg"/>
-                        }
+                    <Col xs={12} lg={6} className={`container-img container-img__${key}`}>
+                        <img  src={images[data.list[0][this.state.key].img]} alt="" className="container-img__bg"/>
                     </Col>
 
                     <Col xs={12} lg={6} className="container-descriptif">
-                        <h1 className="container-descriptif__date">{data.list[0][this.state.key].date}</h1>
+                        <h1 className={`container-descriptif__date container-descriptin__date-${key}`}>{data.list[0][this.state.key].date}</h1>
                         <div className='container__descriptionJO-title'>
-                            <h1 className="container-descriptif__title">
+                            <h1 className={`container-descriptif__title container-descriptif__title-${key}`}>
                                 {data.list[0][this.state.key].title}
                             </h1>
-                            <p className="container-descriptif__text">{data.list[0][this.state.key].text}</p>
+                            <p className={`container-descriptif__text container-descriptif__text-${key}`}>{data.list[0][this.state.key].text}</p>
                         </div>
 
                         <div className="container-descriptif__link">
                             <Link to={'/Discover'}>
-                                <button onClick={this.onClickDiscover} className="container-descriptif__btn">Découvrir
-                                </button>
+                                <button onClick={this.onClickDiscover} className="container-descriptif__btn">Découvrir</button>
                             </Link>
                         </div>
 

@@ -4,6 +4,9 @@
   height: 100vh;
 
   &-img {
+    animation-duration: 1.2s;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
     &__bg{
       position: fixed;
       bottom: 54px;
@@ -24,19 +27,26 @@
     &__date {
       height: 30rem;
       margin: 0 0 0 186px;
-      color: transparent;
-      -webkit-text-stroke-width: 3px;
-      -webkit-text-stroke-color: #B02F2F;
+      color: #B02F2F;
       font-size: 20rem;
+      animation-duration: 1.2s;
+      animation-timing-function: ease;
+      -webkit-animation-fill-mode: forwards;
 
     }
     &__title {
       font-size: 4rem;
+      animation-duration: 1.2s;
+      animation-timing-function: ease;
+      -webkit-animation-fill-mode: forwards;
     }
 
     &__text {
       font-size: 2rem;
       line-height: 1.5;
+      animation-duration: 1.2s;
+      animation-timing-function: ease;
+      -webkit-animation-fill-mode: forwards;
     }
 
     &__link {
@@ -67,4 +77,314 @@
 
 .container__descriptionJO-title {
   height: 27rem;
+}
+
+// Animation - Keyframes
+
+.container-img__1936 {
+  animation-name: fadeInImg;
+}
+
+.container-img__1968 {
+  animation-name: fadeInImg2;
+}
+
+.container-img__1972 {
+  animation-name: fadeInImg3;
+
+}
+
+.container-img__2008 {
+  animation-name: fadeInImg4;
+
+}
+
+.container-img__2016 {
+  animation-name: fadeInImg5;
+}
+
+.container-img__2024 {
+  animation-name: fadeInImg6;
+}
+
+.container-descriptif__title-1936,
+.container-descriptif__text-1936 {
+
+  animation-name: TranslateText;
+}
+
+.container-descriptif__title-1968,
+.container-descriptif__text-1968,
+.container-descriptin__date-1968 {
+
+  animation-name: TranslateText2;
+}
+
+.container-descriptif__title-1972,
+.container-descriptif__text-1972,
+.container-descriptin__date-1972 {
+
+  animation-name: TranslateText3;
+}
+
+.container-descriptif__title-2008,
+.container-descriptif__text-2008,
+.container-descriptin__date-2008 {
+
+  animation-name: TranslateText4;
+}
+
+.container-descriptif__title-2016,
+.container-descriptif__text-2016,
+.container-descriptin__date-2016 {
+
+  animation-name: TranslateText5;
+}
+
+.container-descriptif__title-2024,
+.container-descriptif__text-2024,
+.container-descriptin__date-2024 {
+
+  animation-name: TranslateText6;
+}
+
+.container-descriptin__date-1936 {
+  animation-name: Date1;
+}
+
+.container-descriptin__date-1968 {
+  animation-name: Date2;
+}
+
+.container-descriptin__date-1972 {
+  animation-name: Date3;
+}
+
+.container-descriptin__date-2008 {
+  animation-name: Date4;
+}
+
+.container-descriptin__date-2016 {
+  animation-name: Date5;
+}
+
+.container-descriptin__date-2024 {
+  animation-name: Date6;
+}
+
+
+// Image
+
+@keyframes fadeInImg {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInImg2 {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInImg3 {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInImg4 {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInImg5 {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInImg6 {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+// Text
+
+@keyframes TranslateText {
+  0% {
+    opacity: 0;
+    // transform: translateX(20rem);
+  }
+
+  100% {
+    opacity: 1;
+    // transform: translateX(0);
+  }
+}
+
+@keyframes TranslateText2 {
+  0% {
+    opacity: 0;
+    // transform: translateX(20rem);
+  }
+
+  100% {
+    opacity: 1;
+    // transform: translateX(0);
+  }
+}
+
+@keyframes TranslateText3 {
+  0% {
+    opacity: 0;
+    // transform: translateX(20rem);
+  }
+
+  100% {
+    opacity: 1;
+    // transform: translateX(0);
+  }
+}
+
+@keyframes TranslateText4 {
+  0% {
+    opacity: 0;
+    // transform: translateX(20rem);
+  }
+
+  100% {
+    opacity: 1;
+    // transform: translateX(0);
+  }
+}
+
+@keyframes TranslateText5 {
+  0% {
+    opacity: 0;
+    // transform: translateX(20rem);
+  }
+
+  100% {
+    opacity: 1;
+    // transform: translateX(0);
+  }
+}
+
+@keyframes TranslateText6 {
+  0% {
+    opacity: 0;
+    // transform: translateX(20rem);
+  }
+
+  100% {
+    opacity: 1;
+    // transform: translateX(0);
+  }
+}
+
+// Date
+
+@keyframes Date1 {
+  0% {
+    color: #B02F2F;
+  }
+
+  100% {
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #B02F2F;
+  }
+}
+
+@keyframes Date2 {
+  0% {
+    color: #B02F2F;
+  }
+
+  100% {
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #B02F2F;
+  }
+}
+
+@keyframes Date3 {
+  0% {
+    color: #B02F2F;
+  }
+
+  100% {
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #B02F2F;
+  }
+}
+
+@keyframes Date4 {
+  0% {
+    color: #B02F2F;
+  }
+
+  100% {
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #B02F2F;
+  }
+}
+
+@keyframes Date5 {
+  0% {
+    color: #B02F2F;
+  }
+
+  100% {
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #B02F2F;
+  }
+}
+
+@keyframes Date6 {
+  0% {
+    color: #B02F2F;
+  }
+
+  100% {
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #B02F2F;
+  }
 }
