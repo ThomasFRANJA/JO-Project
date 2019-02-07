@@ -6,8 +6,7 @@
 	padding: 4rem;
 	width: 100%;
 	z-index: 900;
-	overflow: auto;
-
+	
 	&__img {
 		height: 8rem;
 		width: auto;
@@ -16,15 +15,16 @@
 }
 
 .header__close {
-
+	
 	position: relative;
 	width: 5rem;
 	height: 1rem;
 	border-radius: 10rem;
-
+	
 	transform: rotate(135deg);
 	background-color: aliceblue;
 	z-index: 950;
+	cursor: pointer;
 }
 
 .header__close::after {

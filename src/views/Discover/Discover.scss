@@ -10,6 +10,7 @@
   animation-duration: 1s;
   animation-delay: 0s;
   -webkit-animation-fill-mode: forwards;
+  z-index: 0;
 
   &:nth-child(4) {
     z-index: 5;
@@ -55,11 +56,20 @@
   /*margin-top: 150px;*/
 }
 
+
+
 .block-discoverLinkLeft {
   position: absolute;
   bottom: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   button {
+
+    position: absolute;
+    top: 55%;
+    left: 30%;
     color: red;
     font-size: 5rem;
     background-color: transparent;
@@ -71,7 +81,13 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   button {
+    position: absolute;
+    top: 55%;
+    right: 30%;
     color: red;
     font-size: 5rem;
     background-color: transparent;

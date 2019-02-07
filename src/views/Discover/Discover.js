@@ -113,7 +113,7 @@ const Discover = () => {
                             </p>
                         </Col>
 
-                        <div>
+                        <div className='block-discover-link-container'>
                             <div className="block-discoverLinkLeft">
                                 <img src={bgLeft} alt=""/>
                                 <button>1936</button>
