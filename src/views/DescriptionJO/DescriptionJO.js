@@ -55,8 +55,15 @@ class DescriptionJO extends Component {
                         </div>
 
                         <div className="container-descriptif__link">
-                            <Link to={'/Discover'}>
-                                <button onClick={this.onClickDiscover} className="container-descriptif__btn">Découvrir</button>
+                            <Link to={{
+                                pathname: '/Discover',
+                                state: { key: key }
+                                }}>
+                                <button
+                                    onClick={this.onClickDiscover}
+                                    className="container-descriptif__btn">
+                                    Découvrir
+                                </button>
                             </Link>
                         </div>
 
