@@ -3,14 +3,21 @@ import {Grid, Row, Col} from 'react-flexbox-grid';
 import './Discover.scss';
 import data from '../../db/data';
 import ogSingle from './../../assets/OG-single-02.svg';
+import bgVideo from './../../assets/videos/1936-Men.mp4';
+
+const handleScroll = () => {
+    document.getElementById('discoverContainer');
+    console.log('ahah');
+};
 
 
 const Discover = () => {
 
     const key = localStorage.getItem('key');
 
+
     return (
-        <div>
+        <div id="discoverContainer" onWheel={handleScroll}>
             {/* Section 1 */}
             <section className="section">
                 <Grid>
@@ -65,9 +72,12 @@ const Discover = () => {
             {/* Section 4 PLAYER */}
             <section className="section">
                 <Grid>
-                    <Row middle="lg">
-                        <Col className="block-discover">
-                            <h1 className="block-discover__title">Player autocomplete</h1>
+                    <Row>
+                        <Col lg={12} className="block-discoverVideo">
+                            <video width="100%" autoPlay={bgVideo} muted={bgVideo}>
+                                <source src={bgVideo} type="video/mp4"/>
+                            </video>
+                            {/*<h1 className="block-discover__title">Player autocomplete</h1>*/}
                         </Col>
                     </Row>
                 </Grid>

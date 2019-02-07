@@ -12,6 +12,16 @@
   }
 }
 
+.block-discoverVideo {
+  position:absolute;
+  height:100%;
+  width:100%;
+  overflow: hidden;
+  video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
 .block-discover {
   text-align: left;
   margin-top: 16em;

@@ -5,7 +5,7 @@
         "title" : "Jessie Owens",
         "date": "1936",
         "text" : "Plus de 4000 athlètes de 49 pays participent aux Jeux d’été de Berlin avec une énorme mise en scène montrant au monde entier la force du régime Nazi. Jesse Owens triomphe en athlétisme devant les yeux d’Adolf Hitler.",
-        "img": "img.png",
+        "img": "img-1936.png",
         "bgTime" : "bg-date.png"
       },
 
@@ -13,7 +13,7 @@
         "title" : "The Black Power",
         "date": "1968",
         "text" : "En 1968 à Mexico, le salut du «black power» a entraîné l’expulsion des athlètes: c'est le troisième moment le plus honteux. Les Américains Tommy Smith et John Carlos remportent les médailles d’or et de bronze au 200 mètres le 16 octobre 1968.",
-        "img": "img.png",
+        "img": "img-1968.png",
         "bgTime" : "bg-date.png"
       },
 
@@ -21,7 +21,7 @@
         "title" : "Traumatisme Munichien",
         "date": "1972",
         "text" : "Le 5 septembre 1972, une organisation terroriste palestinienne, Septembre Noir, s'introduit dans le village olympique et prend en otage une partie de la délégation israélienne.",
-        "img": "img.png",
+        "img": "img-1972.png",
         "bgTime" : "bg-date.png"
       },
 
@@ -29,7 +29,7 @@
         "title" : "Le POUVOIR de Pékin",
         "date": "2008",
         "text" : "Le choix de la Chine pour l'organisation de ces Jeux posera problème à de nombreux pays.",
-        "img": "img.png",
+        "img": "img-2008.png",
         "bgTime" : "bg-date.png"
       },
 
@@ -37,7 +37,7 @@
         "title" : "Face cachée de RIO",
         "date": "2016",
         "text" : "Rio 2016, une infférence passant par des dégâts civiles au désastre humanitaire, la corruption s'installe",
-        "img": "img.png",
+        "img": "img-2016.png",
         "bgTime" : "../assets/img/Home/bg-date.png"
       },
 
