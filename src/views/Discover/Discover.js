@@ -4,6 +4,9 @@ import './Discover.scss';
 import data from '../../db/data';
 import ogSingle from './../../assets/OG-single-02.svg';
 import bgVideo from './../../assets/videos/1936-Men.mp4';
+import bgLeft from './../../assets/Circle-bottom-left.svg';
+import bgRight from './../../assets/Circle-bottom-right.svg';
+
 
 const handleScroll = () => {
     document.getElementById('discoverContainer');
@@ -108,6 +111,18 @@ const Discover = () => {
                             <p className="block-discover__descriptif">{data.list[0][key].text}
                             </p>
                         </Col>
+
+                        <div>
+                            <div className="block-discoverLinkLeft">
+                                <img src={bgLeft} alt=""/>
+                                <button>1936</button>
+                            </div>
+
+                            <div className="block-discoverLinkRight">
+                                <img src={bgRight} alt=""/>
+                                <button>1972</button>
+                            </div>
+                        </div>
                     </Row>
                 </Grid>
             </section>

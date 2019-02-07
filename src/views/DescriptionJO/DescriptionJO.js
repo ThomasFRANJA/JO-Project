@@ -17,29 +17,36 @@ const images = importAll(
 );
 
 class DescriptionJO extends Component {
-   state = {
+    state = {
         key: "1936"
     };
 
 
-   onClickDate = (event) => {
-       event.preventDefault();
-       this.setState({
-           key: event.target.value,
-       });
-   };
+    onClickDate = (event) => {
+        event.preventDefault();
+        this.setState({
+            key: event.target.value,
+        });
+    };
 
-   onClickDiscover = () => {
-     localStorage.setItem('key', this.state.key);
-   };
+    onClickDiscover = () => {
+        localStorage.setItem('key', this.state.key);
+    };
 
-    render(){
-    console.log(images);
-        return(
+    render() {
+        console.log(images);
+        return (
             <Grid>
                 <Row middle="lg" className="container">
                     <Col xs={12} lg={6} className="container-img">
-                        <img  src={images[data.list[0][this.state.key].img]} alt="" className="container-img__bg"/>
+                        {(this.state.key === "2008") &&
+                        <img src={images[data.list[0][this.state.key].img]} alt="img-date"
+                             className="container-img__bg--fixed"/>
+                        }
+                        {(this.state.key === "1936" || this.state.key === "1968" || this.state.key === "1972" || this.state.key === "2016" || this.state.key === "2024") &&
+                            <img src={images[data.list[0][this.state.key].img]} alt="img-date"
+                            className="container-img__bg"/>
+                        }
                     </Col>
 
                     <Col xs={12} lg={6} className="container-descriptif">
@@ -53,7 +60,8 @@ class DescriptionJO extends Component {
 
                         <div className="container-descriptif__link">
                             <Link to={'/Discover'}>
-                                <button onClick={this.onClickDiscover} className="container-descriptif__btn">Découvrir</button>
+                                <button onClick={this.onClickDiscover} className="container-descriptif__btn">Découvrir
+                                </button>
                             </Link>
                         </div>
 

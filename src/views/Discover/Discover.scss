@@ -51,6 +51,31 @@
   /*margin-top: 150px;*/
 }
 
+.block-discoverLinkLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  button {
+    color: red;
+    font-size: 5rem;
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.block-discoverLinkRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  button {
+    color: red;
+    font-size: 5rem;
+    background-color: transparent;
+    border: none;
+
+  }
+}
+
 .bgCircle {
   position: absolute;
   top: 15%;

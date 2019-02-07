@@ -2,7 +2,7 @@
   "list": [
     {
       "1936": {
-        "title" : "Jessie Owens",
+        "title" : "Jeux Olympiques de Berlin",
         "date": "1936",
         "text" : "Plus de 4000 athlètes de 49 pays participent aux Jeux d’été de Berlin avec une énorme mise en scène montrant au monde entier la force du régime Nazi. Jesse Owens triomphe en athlétisme devant les yeux d’Adolf Hitler.",
         "img": "img-1936.png",
@@ -10,33 +10,33 @@
       },
 
       "1968": {
-        "title" : "The Black Power",
+        "title" : "Jeux Olympiques de Mexico",
         "date": "1968",
-        "text" : "En 1968 à Mexico, le salut du «black power» a entraîné l’expulsion des athlètes: c'est le troisième moment le plus honteux. Les Américains Tommy Smith et John Carlos remportent les médailles d’or et de bronze au 200 mètres le 16 octobre 1968.",
+        "text" : "En 1968 à Mexico, le salut du «black power» a entraîné l’expulsion des athlètes: c'est le troisième moment le plus honteux. Les Américains Tommy Smith et John Carlos remportent les médailles d’or et de bronze au 200 mètres le 16 octobre 1968. Ils montent sur le podium sans chaussures et en portant des chaussettes noires et font le salut du black power. Le médaillé d’argent australien Peter Norman les soutient et annonce s’opposer à la politique «Australie blanche» de son pays.",
         "img": "img-1968.png",
         "bgTime" : "bg-date.png"
       },
 
       "1972": {
-        "title" : "Traumatisme Munichien",
+        "title" : "Jeux Olympique de Munich",
         "date": "1972",
-        "text" : "Le 5 septembre 1972, une organisation terroriste palestinienne, Septembre Noir, s'introduit dans le village olympique et prend en otage une partie de la délégation israélienne.",
+        "text" : "Le 5 septembre 1972, une organisation terroriste palestinienne, Septembre Noir, s'introduit dans le village olympique et prend en otage une partie de la délégation israélienne. Revendiquant la libération et le transfert de 234 prisonniers palestiniens, les huit preneurs d'otages tuent onze athlètes et un policier avant d'être soit abattus, soit capturés. Après Berlin 1936, Munich 1972 n'arrive pas à se défaire de l'Histoire.",
         "img": "img-1972.png",
         "bgTime" : "bg-date.png"
       },
 
       "2008": {
-        "title" : "Le POUVOIR de Pékin",
+        "title" : "Les Jeux Olympiques de Pekin",
         "date": "2008",
-        "text" : "Le choix de la Chine pour l'organisation de ces Jeux posera problème à de nombreux pays.",
+        "text" : "Le choix de la Chine pour l'organisation de ces Jeux posera problème à de nombreux pays. La condition féminine, la répression au Tibet ou encore l'absence de liberté de la presse sont autant d'arguments qui font hésiter certains pays à participer... à la cérémonie d'ouverture. Plusieurs chefs d'Etat ne s'y rendront pas. Après consultation des pays membres de l'UE, qu'il présidait à ce moment-là, Nicolas Sarkozy ira à Pékin.",
         "img": "img-2008.png",
         "bgTime" : "bg-date.png"
       },
 
       "2016": {
-        "title" : "Face cachée de RIO",
+        "title" : "Les Jeux Olympiques de Rio",
         "date": "2016",
-        "text" : "Rio 2016, une infférence passant par des dégâts civiles au désastre humanitaire, la corruption s'installe",
+        "text" : "Comme pour tous les JO auparavant, Rio 2016 a montré à quel point le CIO est indifférent face aux dégâts, à la corruption et au désastre humanitaire que les Jeux laissent sur leur passage.",
         "img": "img-2016.png",
         "bgTime" : "../assets/img/Home/bg-date.png"
       },

@@ -11,17 +11,17 @@ export default class HomeContainer extends Component {
         super(props);
 
         this.state = {
-            loading: false
+            loading: true
         }
     }
 
-    // componentDidMount() {
-    //     setTimeout(() => {
-    //         this.setState({
-    //             loading: false
-    //         });
-    //     }, 5500);
-    // }
+     componentDidMount() {
+         setTimeout(() => {
+             this.setState({
+                 loading: false
+             });
+         }, 5500);
+     }
 
     render() {
 
