@@ -6,6 +6,10 @@
   border-bottom: #FFFFFF 1px solid;
   position: relative;
   overflow: hidden;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  -webkit-animation-fill-mode: forwards;
 
   &:nth-child(4) {
     z-index: 5;
@@ -102,4 +106,15 @@
     right: -27%;
     top: -34%;
   }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
 }
