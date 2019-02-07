@@ -13,11 +13,74 @@ const handleScroll = () => {
     console.log('ahah');
 };
 
+const leftClick = () => {
+    const clickLeft = document.getElementsByClassName('discoverPrevious');
+
+    if (clickLeft[0].textContent === '1936') {
+        localStorage.setItem('key', '1936')
+    }
+
+    if (clickLeft[0].textContent === '1968') {
+        localStorage.setItem('key', '1968')
+    }
+
+    if (clickLeft[0].textContent === '1972') {
+        localStorage.setItem('key', '1972')
+    }
+
+    if (clickLeft[0].textContent === '2008') {
+        localStorage.setItem('key', '2008')
+    }
+
+    if (clickLeft[0].textContent === '2016') {
+        localStorage.setItem('key', '2016')
+    }
+
+    if (clickLeft[0].textContent === '2024') {
+        localStorage.setItem('key', '2024')
+    }
+
+        window.location.reload();
+        window.scrollTo(0, 0);
+}
+
+const rightClick = () => {
+    const clickRight = document.getElementsByClassName('discoverNext');
+
+    if (clickRight[0].textContent === '1936') {
+        localStorage.setItem('key', '1936')
+    }
+
+    if (clickRight[0].textContent === '1968') {
+        localStorage.setItem('key', '1968')
+    }
+
+    if (clickRight[0].textContent === '1972') {
+        localStorage.setItem('key', '1972')
+    }
+
+    if (clickRight[0].textContent === '2008') {
+        localStorage.setItem('key', '2008')
+    }
+
+    if (clickRight[0].textContent === '2016') {
+        localStorage.setItem('key', '2016')
+    }
+
+    if (clickRight[0].textContent === '2024') {
+        localStorage.setItem('key', '2024')
+    }
+
+    window.location.reload();
+    window.scrollTo(0, 0);
+}
+
 
 const Discover = () => {
 
     const key = localStorage.getItem('key');
-    console.log('key', key);
+
+
     
     return (
         <div id="discoverContainer" onWheel={handleScroll}>
@@ -117,6 +180,7 @@ const Discover = () => {
                             <div className="block-discoverLinkLeft">
                                 <img src={bgLeft} alt=""/>
                                 <button
+                                    onClick={leftClick}
                                     className='discoverPrevious'
                                     >
                                     {
@@ -133,6 +197,7 @@ const Discover = () => {
                             <div className="block-discoverLinkRight">
                                 <img src={bgRight} alt=""/>
                                 <button
+                                    onClick={rightClick}
                                     className='discoverNext'
                                     >
                                     {
