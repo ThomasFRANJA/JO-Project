@@ -2,7 +2,7 @@
   background: url("../../assets/Introduction/Background.jpg") no-repeat, center;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   border-bottom: #FFFFFF 1px solid;
   position: relative;
   overflow: hidden;
@@ -15,6 +15,16 @@
   &:nth-child(4) {
     z-index: 5;
   }
+
+  &:nth-child(6) {
+    .block-discover {
+      margin-top: 0;
+    }
+  }
+}
+
+.block-containerBg {
+  margin-top: 15em;
 }
 
 .block-discoverVideo {
@@ -27,15 +37,21 @@
     min-height: 100%;
   }
 }
+
 .block-discover {
   text-align: left;
-  margin-top: 16em;
+  /*margin-top: 16em;*/
   color: #FFFFFF;
   z-index: 8;
+  text-align: justify;
 
   span {
     font-size: 4rem;
     color: red;
+  }
+
+  &-link-container {
+    margin-top: 60em;
   }
 
   &__title {
@@ -50,9 +66,7 @@
 }
 
 .block-item {
-  background-color: #FFFFFF;
-  height: 55vh;
-  width: 40vw;
+
   /*margin-top: 150px;*/
 }
 

@@ -2,51 +2,87 @@
   "list": [
     {
       "1936": {
-        "title" : "Jeux Olympiques de Berlin",
-        "date": "1936",
-        "text" : "Plus de 4000 athlètes de 49 pays participent aux Jeux d’été de Berlin avec une énorme mise en scène montrant au monde entier la force du régime Nazi. Jesse Owens triomphe en athlétisme devant les yeux d’Adolf Hitler.",
-        "img": "img-1936.png",
-        "bgTime" : "bg-date.png"
+        "date"          : "1936",
+        "title"         : "Jeux Olympiques de Berlin",
+        "title2"        : "Les jeux de la Honte",
+        "title3"        : "Propagande",
+        "title4"        : "Le Défi",
+        "title5"        : "L’Impact social",
+
+
+        "text"          : "Plus de 4000 athlètes de 49 pays participent aux Jeux d’été de Berlin avec une énorme mise en scène montrant au monde entier la force du régime Nazi. Jesse Owens triomphe en athlétisme devant les yeux d’Adolf Hitler.",
+        "text2"         : "Pendant deux semaines en août 1936, la dictature nazie d'Adolf Hitler dissimula son caractère raciste et militariste pendant qu'elle accueillait les Jeux olympiques d'été. Mettant entre parenthèses son programme antisémite et ses plans d'expansion territoriale, le régime utilisa les Jeux olympiques pour fournir aux spectateurs et aux journalistes étrangers une fausse image d'une Allemagne pacifique et tolérante. En rejetant la proposition de boycott des Jeux olympiques de 1936, les Etats-Unis et d'autres démocraties occidentales manquèrent l'occasion d'adopter une position qui (certains observateurs l'ont affirmé à l'époque) aurait pu faire réfléchir Hitler et renforcer la résistance internationale à la tyrannie nazie. Après les Jeux, la politique expansionniste de l'Allemagne ainsi que la persécution des Juifs et autres \"ennemis de l'Etat\" s'accélérèrent, aboutissant à la Seconde Guerre mondiale et à la Shoah.",
+        "text3"         : "Les Nazis soignèrent particulièrement la préparation de ces Jeux d'été, qui se déroulèrent du 1er au 16 août. Un immense complexe sportif fut construit, des drapeaux olympiques ainsi que des drapeaux à croix gammée ornaient les monuments et les bâtiments d'un Berlin en fête et bondé. La plupart des touristes ne savaient pas que le régime nazi avait provisoirement enlevé les panneaux antisémites ni que le ministère allemand de l'Intérieur venait d'organiser une rafle de Tsiganes à Berlin. En effet, le 16 juillet 1936, quelques 800 Tsiganes résidant à Berlin et dans les environs furent arrêtés et internés sous surveillance policière dans un camp spécial de la banlieue de Berlin, à Marzahn. Les autorités nazies ordonnèrent également que les visiteurs étrangers ne fussent pas passibles des poursuites pénales prévues par les lois anti-homosexuels",
+        "text4"         : "Tout était conçu pour que ces Jeux marquent le triomphe du nouveau régime nazi, tout sauf la présence d’un athlète noir américain, fils de métayers et petit-fils d’esclaves qui ce jour là rencontra son destin : Jesse Owens. Saut en longueur, 100 mètres, 200 mètres puis relais 4 × 100 mètres : dans l’arène berlinoise d’août 1936 où les drapeaux olympiques flottent aux côtés des étendards nazis, Jesse Owens ne laisse aucune chance à ses adversaires. Ces derniers ne peuvent rien y faire, en 1936, le sprinteur américain est l’homme le plus rapide du monde, et le restera jusque bien des années plus tard.",
+        "text5"         : "À l’heure des commémorations, des pardons, des silences brisés et des archives ouvertes, force est de constater que le CIO s’est fait un « devoir d’oublier » ses compromissions avec les régimes fascistes et le parti nazi en particulier. Que ce soit dans ses publications officielles, sur son site Internet ou dans le Musée olympique tout juste rénové de Lausanne, le CIO ne veut retenir des Jeux de Berlin que les victoires de Jesse Owens. Cela fait pourtant 40 ans que le monde universitaire et les médias ont révélé ses collusions avec le IIIe Reich. ",
+        "text6"         : "Aujourd’hui, comme le suggérait l’historien Henry Rousso avec Vichy, l’heure n’est plus aux révélations sensationnelles, car tout a été dit ou presque sur l’olympiade nazie. Mais il s’agit plutôt d’accepter et de comprendre ce passé afin d’en tirer les enseignements pour le présent et l’avenir des Jeux. La meilleure façon pour le CIO de tourner la page de Berlin 1936 serait tout simplement d’en parler. Mais comment pourrait-il le faire quand il persiste encore à confier ses Jeux aux dictatures de notre temps ?",
+
+
+        "img"           : "img-1936.png",
+        "img01"         : "item-01.jpg",
+        "img02"         : "item-02.jpg",
+        "img03"         : "item-03.jpg",
+        "bgTime"        : "bg-date.png"
       },
 
+
       "1968": {
-        "title" : "Jeux Olympiques de Mexico",
         "date": "1968",
+        "title" : "Jeux Olympiques de Mexico",
         "text" : "En 1968 à Mexico, le salut du «black power» a entraîné l’expulsion des athlètes: c'est le troisième moment le plus honteux. Les Américains Tommy Smith et John Carlos remportent les médailles d’or et de bronze au 200 mètres le 16 octobre 1968. Ils montent sur le podium sans chaussures et en portant des chaussettes noires et font le salut du black power. Le médaillé d’argent australien Peter Norman les soutient et annonce s’opposer à la politique «Australie blanche» de son pays.",
         "img": "img-1968.png",
         "bgTime" : "bg-date.png"
       },
 
+
+
       "1972": {
-        "title" : "Jeux Olympique de Munich",
         "date": "1972",
+        "title" : "Jeux Olympique de Munich",
         "text" : "Le 5 septembre 1972, une organisation terroriste palestinienne, Septembre Noir, s'introduit dans le village olympique et prend en otage une partie de la délégation israélienne. Revendiquant la libération et le transfert de 234 prisonniers palestiniens, les huit preneurs d'otages tuent onze athlètes et un policier avant d'être soit abattus, soit capturés. Après Berlin 1936, Munich 1972 n'arrive pas à se défaire de l'Histoire.",
         "img": "img-1972.png",
         "bgTime" : "bg-date.png"
       },
 
+
       "2008": {
-        "title" : "Les Jeux Olympiques de Pekin",
         "date": "2008",
+        "title" : "Les Jeux Olympiques de Pekin",
         "text" : "Le choix de la Chine pour l'organisation de ces Jeux posera problème à de nombreux pays. La condition féminine, la répression au Tibet ou encore l'absence de liberté de la presse sont autant d'arguments qui font hésiter certains pays à participer... à la cérémonie d'ouverture. Plusieurs chefs d'Etat ne s'y rendront pas. Après consultation des pays membres de l'UE, qu'il présidait à ce moment-là, Nicolas Sarkozy ira à Pékin.",
         "img": "img-2008.png",
         "bgTime" : "bg-date.png"
       },
 
+
       "2016": {
-        "title" : "Les Jeux Olympiques de Rio",
         "date": "2016",
+        "title" : "Les Jeux Olympiques de Rio",
         "text" : "Comme pour tous les JO auparavant, Rio 2016 a montré à quel point le CIO est indifférent face aux dégâts, à la corruption et au désastre humanitaire que les Jeux laissent sur leur passage.",
         "img": "img-2016.png",
         "bgTime" : "../assets/img/Home/bg-date.png"
       },
 
+
       "2024": {
-        "title" : "Et Paris 2024 ?",
-        "date": "2024",
-        "text" : "C'est fait ! Paris accueillera les Jeux Olympiques en 2024, 100 ans après la dernière édition organisée dans la capitale. En compétition avec Los Angeles, Paris a su se démarquer grâce à un dossier prometteur, s'appuyant sur un grand nombre d'infrastructures déjà existantes, mais aussi grâce aux retraits successifs des autres candidats (Boston, Hambourg, Rome, Budapest). Pourtant, les inquiétudes autour de l'organisation de cet événement sont nombreuses, notamment concernant le respect du budget alloué à l'organisation",
-        "img": "img-2024.png",
-        "bgTime" : "bg-date.png"
+        "date"          : "2024",
+        "title"         : "Et Paris 2024 ?",
+        "title2"        : "L’annonce des JO 2024 à Paris n’a pas fait que des heureux",
+        "title3"        : "L'impact sur nos villes",
+        "title4"        : "Des J.O « verts » ?",
+        "title5"        : "Quelle stratégie ?",
+
+
+        "text"          : "C'est fait ! Paris accueillera les Jeux Olympiques en 2024, 100 ans après la dernière édition organisée dans la capitale. En compétition avec Los Angeles, Paris a su se démarquer grâce à un dossier prometteur, s'appuyant sur un grand nombre d'infrastructures déjà existantes, mais aussi grâce aux retraits successifs des autres candidats (Boston, Hambourg, Rome, Budapest). Pourtant, les inquiétudes autour de l'organisation de cet événement sont nombreuses, notamment concernant le respect du budget alloué à l'organisation",
+        "text2"         : "Pendant deux semaines en août 1936, la dictature nazie d'Adolf Hitler dissimula son caractère raciste et militariste pendant qu'elle accueillait les Jeux olympiques d'été. Mettant entre parenthèses son programme antisémite et ses plans d'expansion territoriale, le régime utilisa les Jeux olympiques pour fournir aux spectateurs et aux journalistes étrangers une fausse image d'une Allemagne pacifique et tolérante. En rejetant la proposition de boycott des Jeux olympiques de 1936, les Etats-Unis et d'autres démocraties occidentales manquèrent l'occasion d'adopter une position qui (certains observateurs l'ont affirmé à l'époque) aurait pu faire réfléchir Hitler et renforcer la résistance internationale à la tyrannie nazie. Après les Jeux, la politique expansionniste de l'Allemagne ainsi que la persécution des Juifs et autres \"ennemis de l'Etat\" s'accélérèrent, aboutissant à la Seconde Guerre mondiale et à la Shoah.",
+        "text3"         : "Cependant, bien que les éléments précédemment cités soient totalement recevables, n’oublions pas que les JO peuvent aussi être source de dynamisme et de croissance économique pour le pays hôte.\n\nEn effet, le besoin de construire de nouveaux complexes sportifs et des structures visant à accueillir les sportifs entraînent la création d’emplois dans les secteurs du bâtiment et de l’entretien de ces structures.\n\nPar ailleurs, d’autres secteurs profitent également du dynamisme impulsé par les JO tels que le tourisme avec des pics d’activité pour l’hôtellerie, la restauration et les activités mises en place pour accueillir et divertir les touristes venant assister aux JO. Les JO attirent un nombre conséquent de touristes qui se pressent pour venir assister aux différentes épreuves et soutenir leurs athlètes. Ainsi, lors des JO de 2012, la capitale britannique a accueilli plus de deux millions de visiteurs.",
+        "text4"         : "L'objectif porté par les organisateurs de Paris 2024 est ambitieux : faire de leurs Jeux olympiques et paralympiques une « référence en matière environnementale ». La question écologique occupe ainsi une place centrale dans la conception de l'événement. La « durabilité » du projet avait d'ailleurs été mise en avant par la France dès la phase de candidature pour emporter l'adhésion des votants du Comité international olympique (CIO). Elle devait faire écho à l'Accord de Paris sur le climat, adopté en décembre 2015, lors de la COP 21, et avec lequel « les Jeux de Paris 2024 seront (…) alignés ».",
+        "text5"         : "Malgré ces impacts positifs sur l’économie des villes hôtes, une problématique demeure : quelle seconde vie donner aux infrastructures utilisées pour les compétitions ?  Comment éviter que ces structures ne se transforment en « éléphants blancs », c’est-à-dire qu’elles soient laissées à l’abandon ?\n\nLe comité d’organisation souhaite suivre l’exemple de Londres, qui a réussi à reconvertir les infrastructures qui ont été construites pour les JO de 2012 et de leur offrir une seconde vie, une fois la flamme olympique éteinte. Par exemple, le village olympique abrite désormais 2 800 logements, dont 700 logements sociaux. Par ailleurs, le quartier a été réaménagé avec des parcs, des espaces de jeux pour les enfants et de rencontres pour les habitants.",
+        "text6"         : "Dans le même esprit, l’Aquatic Center qui accueillait les épreuves de natation a été transformée en piscine municipale, ouverte à tous les londoniens. De son côté, le stade olympique a été racheté par le club de football West Ham, qui y organise désormais ses matchs.\n\nLa délégation en charge des JO de Paris 2024 a d’ores et déjà exposé sa stratégie pour répondre à cette question et préparer la reconversion des infrastructures sur le modèle londonien. La carte ci-dessus indique où auront lieu les épreuves sportives dans la capitale.",
+        "img"           : "img-2024.png",
+        "img01"         : "item-04.jpg",
+        "img02"         : "item-05.jpg",
+        "img03"         : "item-06.jpg",
+        "bgTime"        : "bg-date.png"
       }
     }
   ]

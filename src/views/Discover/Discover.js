@@ -8,6 +8,18 @@ import bgLeft from './../../assets/Circle-bottom-left.svg';
 import bgRight from './../../assets/Circle-bottom-right.svg';
 import  Header              from    '../../components/Header/Header';
 
+const importAll = require =>
+    require.keys().reduce((acc, next) => {
+        acc[next.replace("./", "")] = require(next);
+        return acc;
+    }, {});
+
+// Folder img
+const images = importAll(
+    require.context('../../assets/Discover', false, /\.(png|jpe?g|svg)$/),
+);
+
+
 const handleScroll = () => {
     document.getElementById('discoverContainer');
     console.log('ahah');
@@ -89,7 +101,7 @@ const Discover = () => {
                 <Header />
                 <Grid>
                     <Row middle="lg">
-                        <Col lg={3} lgOffset={1} className="block-discover">
+                        <Col lg={6} lgOffset={1} className="block-discover">
                             <div>
                                 <span>{data.list[0][key].date}</span>
                             </div>
@@ -104,14 +116,14 @@ const Discover = () => {
             {/* Section 2 */}
             <section className="section">
                 <Grid>
-                    <Row middle="lg" center="lg">
+                    <Row middle="lg" left="lg">
                         <img className="bgCircle" src={ogSingle} alt="overlay"/>
-                        <Col lg={6} lgOffset={4} className="block-discover">
+                        <Col lg={9} lgOffset={1} className="block-discover">
                             <div>
-                                <h1 className="block-discover__title">Type Something</h1>
+                                <h1 className="block-discover__title">{data.list[0][key].title2}</h1>
                             </div>
                             <div>
-                                <p className="block-discover__descriptif">{data.list[0][key].text}</p>
+                                <p className="block-discover__descriptif">{data.list[0][key].text2}</p>
                             </div>
                         </Col>
                     </Row>
@@ -124,12 +136,14 @@ const Discover = () => {
                     <Row top="lg">
                         <img className="bgCircle-2" src={ogSingle} alt="overlay"/>
                         <Col lg={4} lgOffset={1} className="block-discover">
-                            <h1 className="block-discover__title">Type Something</h1>
-                            <p className="block-discover__descriptif">{data.list[0][key].text}</p>
+                            <h1 className="block-discover__title">{data.list[0][key].title3}</h1>
+                            <p className="block-discover__descriptif">{data.list[0][key].text3}</p>
                         </Col>
 
                         <Col lg={5} lgOffset={1} className="block-discover">
-                            <div className="block-item"></div>
+                            <div className="block-item">
+                                <img src={images[data.list[0][key].img01]} alt="img-Propagande"/>
+                            </div>
                         </Col>
                         <img className="bgCircle-3" src={ogSingle} alt="overlay"/>
                     </Row>
@@ -155,11 +169,13 @@ const Discover = () => {
                 <Grid>
                     <Row top="lg">
                         <Col lg={5} lgOffset={1} className="block-discover">
-                            <div className="block-item"></div>
+                            <div className="block-item">
+                                <img src={images[data.list[0][key].img02]} alt="img-Propagande"/>
+                            </div>
                         </Col>
                         <Col lg={4} lgOffset={1} className="block-discover">
-                            <h1 className="block-discover__title">Type Something</h1>
-                            <p className="block-discover__descriptif">{data.list[0][key].text}</p>
+                            <h1 className="block-discover__title">{data.list[0][key].title4}</h1>
+                            <p className="block-discover__descriptif">{data.list[0][key].text4}</p>
                         </Col>
                         <img className="bgCircle-4" src={ogSingle} alt="overlay"/>
                     </Row>
@@ -170,11 +186,24 @@ const Discover = () => {
             {/* Section 6 */}
             <section className="section">
                 <Grid>
-                    <Row center="lg">
-                        <Col lg={8} className="block-discover">
-                            <p className="block-discover__descriptif">{data.list[0][key].text}
+                    <Row center="lg" className="block-containerBg">
+                        <Col lg={12} >
+                            <img src={images[data.list[0][key].img03]} alt=""/>
+                        </Col>
+                    </Row>
+
+                    <Row className="row" center="lg">
+                        <Col lg={5} className="block-discover">
+                            <p className="block-discover__descriptif">{data.list[0][key].text5}
                             </p>
                         </Col>
+
+                        <Col lg={5} lgOffset={1} className="block-discover">
+                            <p className="block-discover__descriptif">{data.list[0][key].text6}
+                            </p>
+                        </Col>
+                    </Row>
+                </Grid>
 
                         <div className='block-discover-link-container'>
                             <div className="block-discoverLinkLeft">
@@ -211,8 +240,6 @@ const Discover = () => {
                                 </button>
                             </div>
                         </div>
-                    </Row>
-                </Grid>
             </section>
         </div>
     )
