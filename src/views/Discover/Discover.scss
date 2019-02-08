@@ -1,3 +1,7 @@
+Row {
+  height: 100vh;
+}
+
 .section {
   background: url("../../assets/Introduction/Background.jpg") no-repeat, center;
   background-size: cover;
@@ -16,9 +20,13 @@
     z-index: 5;
   }
 
+  /*&:nth-child(3) {
+  }*/
+
   &:nth-child(6) {
     .block-discover {
       margin-top: 0;
+      height: auto;
     }
   }
 }
@@ -41,9 +49,14 @@
 .block-discover {
   text-align: left;
   /*margin-top: 16em;*/
+  display: flex;
   color: #FFFFFF;
   z-index: 8;
   text-align: justify;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 
   span {
     font-size: 4rem;
@@ -66,8 +79,14 @@
 }
 
 .block-item {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 
-  /*margin-top: 150px;*/
+  img {
+    height: 75vh;
+  }
 }
 
 

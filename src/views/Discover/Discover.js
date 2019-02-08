@@ -192,7 +192,7 @@ const Discover = () => {
                         </Col>
                     </Row>
 
-                    <Row className="row" center="lg">
+                    <Row className="row" center="lg" top="lg">
                         <Col lg={5} className="block-discover">
                             <p className="block-discover__descriptif">{data.list[0][key].text5}
                             </p>
