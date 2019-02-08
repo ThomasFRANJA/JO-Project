@@ -11,6 +11,11 @@
       position: fixed;
       bottom: 54px;
       left: 57px;
+      @media screen and (max-width: 768px) {
+        left: auto;
+        width: 80%;
+        bottom: 50px;
+      }
       &--fixed {
         position: fixed;
         bottom: 54px;
@@ -29,16 +34,28 @@
       margin: 0 0 0 186px;
       color: #B02F2F;
       font-size: 20rem;
+      font-family: 'IBM Plex Sans', sans-serif;
       animation-duration: 1.2s;
       animation-timing-function: ease;
       -webkit-animation-fill-mode: forwards;
+      @media screen and (max-width: 768px) {
+        margin: 0;
+        font-size: 10rem;
+        height: auto;
+        }
 
     }
     &__title {
       font-size: 4rem;
+      font-family: 'IBM Plex Sans', sans-serif;
       animation-duration: 1.2s;
       animation-timing-function: ease;
       -webkit-animation-fill-mode: forwards;
+      @media screen and (max-width: 768px) {
+        font-size: 3rem;
+        line-height: 1;
+        height: 26%;
+      }
     }
 
     &__text {
@@ -47,6 +64,9 @@
       animation-duration: 1.2s;
       animation-timing-function: ease;
       -webkit-animation-fill-mode: forwards;
+      @media screen and (max-width: 768px) {
+        font-size: 1.4rem;
+      }
     }
 
     &__link {
@@ -64,6 +84,9 @@
       font-size: 15px;
       padding: 10px 50px;
       margin-top: 45px;
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
       &:hover {
         background-color: #B02F2F;
         opacity: .7;
