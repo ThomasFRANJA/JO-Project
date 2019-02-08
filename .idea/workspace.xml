@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c4a9ef-5cde-4264-a845-f98f772dbff3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/styles/Description-JO.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Description-JO.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Discover/rio-item-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Discover/rio-item-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Discover/rio-item-03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Discover/Discover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Discover/Discover.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -80,7 +83,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/styles/Description-JO.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="213">
@@ -101,11 +104,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/views/Discover/Discover.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="225">
-                  <caret line="174" selection-start-line="174" selection-end-line="178" selection-end-column="3" />
+                  <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -114,7 +117,7 @@
             <entry file="file://$PROJECT_DIR$/src/db/data.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="374">
-                  <caret line="79" column="500" selection-start-line="79" selection-start-column="500" selection-end-line="79" selection-end-column="500" />
+                  <caret line="92" column="500" selection-start-line="92" selection-start-column="500" selection-end-line="92" selection-end-column="500" />
                 </state>
               </provider>
             </entry>
@@ -166,8 +169,8 @@
         <option value="$PROJECT_DIR$/src/db/data.json" />
         <option value="$PROJECT_DIR$/src/views/Discover/Discover.js" />
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
-        <option value="$PROJECT_DIR$/src/views/Discover/Discover.scss" />
         <option value="$PROJECT_DIR$/src/styles/Description-JO.scss" />
+        <option value="$PROJECT_DIR$/src/views/Discover/Discover.scss" />
       </list>
     </option>
   </component>
@@ -253,12 +256,12 @@
       <updated>1548969512894</updated>
       <workItem from="1548969515088" duration="27772000" />
       <workItem from="1549451860200" duration="24728000" />
-      <workItem from="1549564028103" duration="19789000" />
+      <workItem from="1549564028103" duration="20303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72289000" />
+    <option name="totallyTimeSpent" value="72803000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,11 +276,11 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" anchor="top" content_ui="combo" id="Project" order="0" visible="true" weight="0.20148331" />
+      <window_info anchor="top" content_ui="combo" id="Project" order="0" visible="true" weight="0.20148331" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.24947146" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.23980223" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.23980223" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32880098" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -427,7 +430,7 @@
     <entry file="file://$PROJECT_DIR$/src/db/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="79" column="500" selection-start-line="79" selection-start-column="500" selection-end-line="79" selection-end-column="500" />
+          <caret line="92" column="500" selection-start-line="92" selection-start-column="500" selection-end-line="92" selection-end-column="500" />
         </state>
       </provider>
     </entry>
@@ -448,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Discover/Discover.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="174" selection-start-line="174" selection-end-line="178" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Discover/Discover.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2879">
@@ -469,6 +465,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Discover/Discover.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
         </state>
       </provider>
     </entry>
